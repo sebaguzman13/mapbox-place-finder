@@ -1,0 +1,52 @@
+body { 
+	background-color: rgba(45, 130, 183);
+	margin: 0; 
+	padding: 0;
+	height: 100vh; 
+}
+/* 198, 197, 185 */
+/* 244, 68, 46 */
+h1 {
+	color: rgb(198, 197, 185);
+	text-shadow: 2px 2px 0.5px black, 0px -1px 0.5px black;
+}
+
+#map { 
+	display: flex;
+	border: 1px solid rgba(45, 130, 183,.6);
+	border-radius: 10px;
+	width: 50vw;
+	height: 50vh; 
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.column {
+	flex-flow: column;
+}
+
+.container {
+	margin: 1em;
+	background-color: rgba(80,12,201,0.7);
+	padding: 1em;
+	border-radius: 10px;
+}
+
+.form {
+	border: 1px solid rgba(45, 130, 183,.6);
+	border-radius: 5px;
+	margin: 1rem;
+}
+
+.form input {
+	border-radius: 5px;
+}
+
+.mapboxgl-ctrl-geocoder {
+    width: 100%!important;
+    max-width: none!important;
+}
